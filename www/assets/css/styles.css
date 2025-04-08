@@ -1,0 +1,113 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+a.nav-link {
+    color: black;
+    text-decoration-line: none;
+}
+
+header {
+    background-color: black;
+    height: 15vh;
+}
+
+header > div {
+    color: white;
+    font-size: 20px;
+    height: inherit;
+    padding: 20px 50px;
+    width: auto;
+}
+
+header > div > div:nth-child(2) {
+    border-left: thin solid yellow;
+    border-right: thin solid yellow;
+}
+
+header a {
+    color: white;
+    text-decoration-line: none;
+}
+
+nav.navbar {
+    height: 10vh;
+}
+
+nav.navbar > div {
+    padding: 20px;
+}
+
+nav.navbar li:last-child {
+    margin-left: 5%;
+}
+
+.nav_calling_block {
+    border: medium solid #F5CF13;
+    border-radius: 20px;
+    color: black;
+    padding: 10px 40px;!important;
+    text-wrap-mode: nowrap;
+    width: 250px;
+}
+
+.desc_calling_block {
+    border: medium solid #F5CF13;
+    border-radius: 10px;
+    color: black;
+    text-wrap-mode: nowrap;
+}
+
+.product_price_block {
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgba(34, 60, 80, 0.2);
+    padding: 5px 20px;
+}
+
+#pills-description-tab, #pills-features-tab {
+    border-bottom: medium solid #E5E5E5;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+}
+
+#pills-description-tab:focus, #pills-features-tab:focus {
+    border-bottom: medium solid #F5CF13;
+}
+
+main {
+    min-height: 60vh;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 15vh;
+    padding: 20px;
+}
+
+.re_metra_footer_block img {
+    width: 100px;
+}
+
+.alfa_digital_footer_block img {
+    width: 300px;
+}
+
+img {
+    height: fit-content;
+    margin: 0 5px;
+}
+
+.product_card {
+    width: 20vw;
+}
+
+.product_card img {
+    height: 150px;
+    width: 100%;
+}

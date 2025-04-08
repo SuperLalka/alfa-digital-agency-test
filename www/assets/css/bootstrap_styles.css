@@ -1,0 +1,11 @@
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    border-radius: 50%;
+    background-color: #000;
+}
+
+#carouselIndicators img {
+   height: 50vh;
+   width: 100%;
+   object-fit: contain;
+}
